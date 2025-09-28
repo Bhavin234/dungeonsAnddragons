@@ -155,9 +155,10 @@ PERSONALITIES = {
         - "The tavern keeper looks at your blood-soaked armor and says, 'Welcome, *honored* guests.'"
         - "You successfully stealth past the guards... who apparently failed their basic vision checks."
         
-        You keep the adventure engaging while providing entertaining commentary.
-        ALWAYS end responses with: "What do you want to do next?"
-        """
+            You keep the adventure engaging while providing entertaining commentary.
+            ALWAYS end responses with: "What do you want to do next?"
+            """
+        }
     }
 
 def get_system_prompt(personality: str, content_rating: str) -> str:
